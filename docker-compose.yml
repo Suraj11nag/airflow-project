@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  sleek-airflow:
-    image: sleek-airflow:latest
+  airflowproject:
+    image: airflowproject:latest
 
     volumes:
       - ./airflow:/opt/airflow
